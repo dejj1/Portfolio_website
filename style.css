@@ -14,7 +14,12 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(img/Screenshot_20230708-064344_Slack[233].jpg);
+    background-image: linear-gradient(
+        180deg,
+        rgba(225, 210, 210, 0) 1%,
+        rgba(26, 4, 4, 0.182) 50%,
+        rgba(0, 0, 0, 0.855) 90%
+      ),url(img/Screenshot_20230708-064344_Slack[233].jpg);
     background-size: cover;
     background-position: center;
 }
@@ -64,9 +69,11 @@ nav ul li a:hover::after{
 .header-text h1{
     font-size: 60px;
     margin-top: 20px;
+    font-weight: 300;
+    color: #fff;
 }
 .header-text h1 span{
-    color: #00ff08
+    color: #00ff08bb
 }
 
 #about{
@@ -122,7 +129,7 @@ nav ul li a:hover::after{
     margin: 10px 0
 }
 .tab-contents ul li span{
-    color: #00ff08;
+    color: #00ff08bc;
     font-size: 14px;
 }
 .tab-contents{
@@ -217,7 +224,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #00ff08;
+    color: #00ff08c7;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -238,7 +245,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #00ff08;
+    border: 1px solid #00ff08aa;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -247,7 +254,7 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background: #00ff08;
+    background: #00ff08a8;
 }
 /* contact */
 .contact-left{
@@ -260,7 +267,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #00ff08;
+    color: #00ff08a9;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -276,12 +283,12 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #00ff08;
+    color: #00ff089d;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #00ff08;
+    background: #00ff08b5;
 }
 .contact-right form{
     width: 100%;
@@ -312,7 +319,7 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #00ff08;
+    color: #00ff087e;
 }
 /* css for small screens */
 nav .fas{
