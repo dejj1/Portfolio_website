@@ -9,6 +9,10 @@
       src="https://kit.fontawesome.com/c4254e24a8.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
   </head>
   <body>
     <div id="header">
@@ -26,10 +30,10 @@
           <i class="fas fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text">
-          <p>Backend Developer</p>
+          <p>Fullstack Developer</p>
           <h1>
             Hi, I am <span>Ayodeji</span><br />
-            Oyelakin, an adept Software Engineer!
+            Oyelakin, an adept Fullstack Developer!
           </h1>
         </div>
       </div>
@@ -43,19 +47,26 @@
           <div class="about-col-2">
             <h1 class="sub-title">About Me</h1>
             <p>
-              My areas of experience include constructing scalable and secure
-              online applications, working with databases, designing and
-              implementing RESTful APIs, and guaranteeing the performance and
-              dependability of server-side applications. I am also a web
-              developer who is passionate about creating engaging and
-              user-friendly websites.
+              I'm an experienced fullstack developer with MERN (MongoDB,
+              Express, React, and Node.js) that specializes in creating
+              scalable, high-performing, dynamic websites. My strong proficiency
+              in front-end and back-end technologies enables me to develop
+              streamlined user interfaces and effective server-side features. My
+              expertise includes designing responsive and intuitive user
+              interfaces with React.js, developing RESTful APIs with Express.js,
+              managing databases with MongoDB, and deploying applications using
+              modern DevOps practices.
             </p>
             <p>
-              I am always eager to learn new skills and technologies that can
-              help me improve my web development abilities. I enjoy working in a
-              team and collaborating with other developers to solve problems and
-              deliver high-quality products. I am looking for opportunities to
-              gain more experience and showcase my web development skills.
+              I am adept at collaborating with cross-functional teams, utilizing
+              Agile methodologies to deliver projects on time and within scope.
+              My proficiency in JavaScript, along with a keen eye for detail and
+              a passion for continuous learning, enables me to stay updated with
+              the latest industry trends and best practices. Whether it's
+              developing new features, optimizing performance, or
+              troubleshooting complex issues, I am committed to delivering
+              high-quality code and innovative solutions that meet business
+              objectives.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">
@@ -69,16 +80,19 @@
             <div class="tab-contents active-tab" id="skills">
               <ul>
                 <li>
-                  <span>JavaScript</span>
+                  <span>React.js</span>
                 </li>
+                <li><span>HTML5 & CSS3</span></li>
+                <li><span>JavaScript(ES6+)</span></li>
                 <li><span>NodeJS</span></li>
                 <li><span>ExpressJS</span></li>
-                <li><span>HTML</span></li>
-                <li><span>CSS</span></li>
-                <li><span>Git</span></li>
                 <li><span>MongoDB</span></li>
-                <li><span>MySQL</span></li>
-                <!-- <li><span>Django</span></li> -->
+                <li><span>API Development</span></li>
+                <li><span>Next.js</span></li>
+                <li><span>Git & GitHub</span></li>
+                <li><span>Jest & Mocha for Unit Testing</span></li>
+                <li><span>Docker for Containerization</span></li>
+                <li><span>Trello(Agile methodology)</span></li>
               </ul>
             </div>
             <div class="tab-contents" id="experience">
@@ -89,9 +103,9 @@
                   the applications by uniquely identifying and verifying users.
                 </li>
                 <li>
-                  Built a Dad's Joke application that provides a collection of
-                  dad jokes, corny jokes and funny puns. This app is perfect for
-                  all ages and is guaranteed to put a smile on your face.
+                  Built a dynamic and responsive e-commerce platform with
+                  product listings, user authentication, and a shopping cart,
+                  integrating payment gateways(with Stripe) and external APIs.
                 </li>
                 <li>
                   Was elected as a team lead in different phases of the Stutern
@@ -113,7 +127,7 @@
                 </li>
                 <li>
                   <span>2022</span><br />BSc in Petroleum Engineering from
-                  University of Lagos.
+                  University of Lagos(expected February 2025)
                 </li>
                 <li>
                   <span>2021 - 2022</span><br />Intermediate Training at Aptech
@@ -137,10 +151,11 @@
         <div class="services-list">
           <div>
             <i class="fas fa-crop-alt"></i>
-            <h2>Web Design</h2>
+            <h2>Dynamic Web Applications</h2>
             <p>
-              I can create and maintain websites, develop custom website designs
-              and layout, as well as host websites.
+              I design and develop responsive and interactive user interfaces
+              using React.js, ensuring a seamless user experience across
+              different devices and screen sizes.
             </p>
             <!-- <a href="#">Learn more</a> -->
           </div>
@@ -158,10 +173,10 @@
           </div>
           <div>
             <i class="fab fa-app-store"></i>
-            <h2>App Design</h2>
+            <h2>Containerization</h2>
             <p>
-              I can work hand-in-hand with the mobile development team to create
-              programs for smartphones, tablets and computers.
+              I use Docker for containerizing applications, ensuring consistency
+              across development and production environments.
             </p>
             <!-- <a href="#">Learn more</a> -->
           </div>
@@ -171,7 +186,7 @@
     <!-- portfolio -->
     <div id="portfolio">
       <div class="container">
-        <h1 class="sub-title">My Work</h1>
+        <h1 class="sub-title">My Projects</h1>
         <div class="work-list">
           <div class="work">
             <img src="img/old-man-laughing.jpg" alt="" />
@@ -191,13 +206,15 @@
           <div class="work">
             <img src="img/foodordering.jpg" alt="" />
             <div class="layer">
-              <h3>Mealy Food Ordering App</h3>
+              <h3>Dejj Foodie App</h3>
               <p>
-                This app connects you to restaurants around you and boasts of a
-                fine delivery system that saves you from going out to eat. I
-                mainly worked on the server-side of the app.
+                Constructed a dynamic and responsive online store featuring
+                product listings, user authentication, and a shopping cart while
+                integrating RESTful APIs I developed and payment methods.
               </p>
-              <a href="#"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://complete-foodie-client-app.vercel.app/"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
             </div>
           </div>
           <div class="work">
@@ -236,7 +253,9 @@
                 Developed this website for a user to reach out to prospective
                 clients interested in buying lands or houses.
               </p>
-              <a href="https://rd907realty.com"><i class="fas fa-external-link-alt"></i></a>
+              <a href="https://rd907realty.com"
+                ><i class="fas fa-external-link-alt"></i
+              ></a>
             </div>
           </div>
           <div class="work">
@@ -264,7 +283,7 @@
           <div class="contact-left">
             <h1 class="sub-title">Contact Me</h1>
             <p><i class="fas fa-paper-plane"></i> dejioyelakin@gmail.com</p>
-            <p><i class="fas fa-phone-square"></i>+234 705 994 4977</p>
+            <p><i class="fas fa-phone-alt"></i>+234 705 994 4977</p>
             <div class="social-icons">
               <a href="https://www.facebook.com/emmydee100"
                 ><i class="fab fa-facebook"></i
@@ -276,7 +295,7 @@
                 ><i class="fab fa-linkedin"></i
               ></a>
               <a href="https://github.com/dejj1"
-                ><i class="fa-brands fa-github"></i
+                ><i class="fa-b fa-github"></i
               ></a>
             </div>
             <a href="img/Emmanuel Oyelakin's CV-1.pdf" download class="btn btn2"
@@ -306,8 +325,8 @@
       </div>
       <div class="copyright">
         <p>
-          Copyright &copy; Deji. Made with <i class="fas fa-heart"></i> by Deji
-          Oyelakin.
+          Copyright &copy; Deji. Designed with <i class="fas fa-heart"></i> by
+          Deji Oyelakin.
         </p>
       </div>
     </div>
