@@ -17,7 +17,7 @@ body{
     background-image: linear-gradient(
         180deg,
         rgba(225, 210, 210, 0) 1%,
-        rgba(26, 4, 4, 0.182) 50%,
+        rgba(26, 4, 4, 0.182) 20%,
         rgba(0, 0, 0, 0.855) 90%
       ),url(img/Screenshot_20230708-064344_Slack[233].jpg);
     background-size: cover;
@@ -32,9 +32,11 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
 .logo{
-    width: 120px;
-    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    
 }
 nav ul li{
     display: inline-block;
@@ -52,7 +54,7 @@ nav ul li a::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #00ff08;
+    background: #521dbc;
     position: absolute;
     left: 0;
     bottom: -6px;
@@ -73,7 +75,7 @@ nav ul li a:hover::after{
     color: #fff;
 }
 .header-text h1 span{
-    color: #00ff08bb
+    color: #8661d1
 }
 
 #about{
@@ -115,7 +117,7 @@ nav ul li a:hover::after{
     content: '';
     width: 0;
     height: 3px;
-    background: #00ff08;
+    background: #401792;
     position: absolute;
     left: 0;
     bottom: -8px;
@@ -129,7 +131,7 @@ nav ul li a:hover::after{
     margin: 10px 0
 }
 .tab-contents ul li span{
-    color: #00ff08bc;
+    color: #521dbc;
     font-size: 14px;
 }
 .tab-contents{
@@ -174,7 +176,7 @@ nav ul li a:hover::after{
     display: inline-block;
 }
 .services-list div:hover{
-    background: #00ff089f;
+    background: #401792;
     transform: translateY(-10px);
 }
 /* portfolio */
@@ -203,7 +205,7 @@ nav ul li a:hover::after{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.6), #00ff08);
+    background: linear-gradient(rgba(0,0,0,0.6), #521dbc);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -224,7 +226,7 @@ nav ul li a:hover::after{
 }
 .layer a{
     margin-top: 20px;
-    color: #00ff08c7;
+    color: #401792;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -245,7 +247,7 @@ nav ul li a:hover::after{
     display: block;
     margin: 50px auto;
     width: fit-content;
-    border: 1px solid #00ff08aa;
+    border: 1px solid #401792;
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
@@ -254,7 +256,7 @@ nav ul li a:hover::after{
 
 }
 .btn:hover{
-    background: #00ff08a8;
+    background: #521dbc;
 }
 /* contact */
 .contact-left{
@@ -267,7 +269,7 @@ nav ul li a:hover::after{
     margin-top: 30px;
 }
 .contact-left p i{
-    color: #00ff08a9;
+    color: #401792;
     margin-right: 15px;
     font-size: 25px;
 }
@@ -283,12 +285,15 @@ nav ul li a:hover::after{
     transition: transform 0.5s;
 }
 .social-icons a:hover{
-    color: #00ff089d;
+    color: #401792;
     transform: translateY(-5px);
 }
 .btn.btn2{
     display: inline-block;
-    background: #00ff08b5;
+    background: #401792;
+}
+.btn.btn2:hover{
+    background: #521dbc;
 }
 .contact-right form{
     width: 100%;
@@ -319,7 +324,7 @@ form .btn2{
     margin-top: 20px;
 }
 .copyright i{
-    color: #00ff087e;
+    color: #401792;
 }
 /* css for small screens */
 nav .fas{
@@ -339,7 +344,7 @@ nav .fas{
 
     }
     nav ul{
-        background: #00ff08;
+        background: #401792;
         position: fixed;
         top: 0;
         right: -200px;
@@ -384,7 +389,7 @@ nav .fas{
     }
 }
 #msg{
-    color: #61b752;
+    color: #401792;
     margin-top: -40px;
     display: block;
 }
